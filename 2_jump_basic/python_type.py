@@ -42,3 +42,25 @@ print(a.strip())
 
 #문자열 변경
 print(text_2.replace("최상조", "이름이..?"))
+
+#삼중 리스트
+a_list = [1, 2, ['a', 'b', ['Life', 'is']]]
+print(a_list[2][2][0])
+
+#중첩 리스트 슬라이싱
+b_list = [1, 2, 3, ['a', 'b', 'c'], 4, 5]
+print(b_list[2:5])
+print(b_list[3][:2])
+
+c_list = [1, 2, 3]
+print(len(c_list))
+del c_list[1]
+print(c_list)
+c_list.append([5, 1])
+print(c_list)
+c_list.insert(0, 999)
+print(c_list)
+c_list.remove(1)
+print(c_list)
+print(c_list.count(999))
+
