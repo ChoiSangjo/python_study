@@ -64,3 +64,18 @@ c_list.remove(1)
 print(c_list)
 print(c_list.count(999))
 
+#리스트의 항목 값은 변화가 가능하고 튜플의 항목 값은 변화가 불가능하다.
+#튜플 > ( )
+
+#딕셔너리
+#딕셔너리에서 Key는 고유한 값이므로 중복되는 Key 값을 설정해 놓으면 하나를 제외한 나머지 것들이 모두 무시된다는 점을 주의
+dic = {'name':'pey', 'phone':'0119993323', 'birth': '1118'}
+print(dic)
+print(dic['name'])
+print(dic.keys())
+list(dic.keys())
+print(dic.values())
+print(dic.items())
+print(dic.get('name'))
+print('name' in dic)
+print('email' in dic)
