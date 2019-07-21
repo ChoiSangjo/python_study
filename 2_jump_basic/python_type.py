@@ -79,3 +79,16 @@ print(dic.items())
 print(dic.get('name'))
 print('name' in dic)
 print('email' in dic)
+
+#set 자료형을 정말 유용하게 사용하는 경우는 교집합, 합집합, 차집합을 구할 때이다.
+s1 = set([1, 2, 3, 4, 5, 6])
+s2 = set([4, 5, 6, 7, 8, 9])
+
+print(s1 & s2) #교집합
+print(s1 | s2) #합집합
+print(s1 - s2) #차집합
+
+k1 = True
+k2 = False
+print(type(k1)) #type 자료형 확인 함수
+
