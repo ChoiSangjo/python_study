@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 #LINE bot으로도 연습해보기
+#Putty > Ubuntu > nohup python3 movie_crawlar.py &
+#ps -ef > kill -9 id
 
 bot = telegram.Bot(token='977420791:AAFP5flh1wz0_hhl-NFLNAfkpndE9IGcWo0')
 url = 'http://www.cgv.co.kr/common/showtimes/iframeTheater.aspx?areacode=01&theatercode=0013&date=20190907'
